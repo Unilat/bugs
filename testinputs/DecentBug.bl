@@ -1,0 +1,14 @@
+PROGRAM decent IS
+INSTRUCTION moveinfect IS
+	WHILE next-is-empty DO
+		move
+		infect
+	END WHILE
+	turnleft
+END moveinfect
+
+BEGIN
+	WHILE true DO
+		moveinfect
+	END WHILE
+END decent

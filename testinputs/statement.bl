@@ -1,0 +1,14 @@
+IF next-is-enemy THEN
+	blob
+	WHILE next-is-empty DO
+		move
+		IF random THEN
+			skip
+			move
+			infect
+		END IF
+	END WHILE
+ELSE
+	move
+	skip
+END IF

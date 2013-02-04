@@ -1,0 +1,29 @@
+PROGRAM test IS
+
+INSTRUCTION bob IS # There is a comment
+	IF next-is-enemy THEN
+		infect
+		turnleft
+		turnright
+	END IF
+END bob
+
+INSTRUCTION two IS # There is a comment
+	IF true THEN
+		move
+	ELSE
+		move
+	END IF
+END two
+
+# Another comment
+
+BEGIN
+
+	WHILE true DO
+		move
+		bob
+		two
+	END WHILE
+
+END test

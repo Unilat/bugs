@@ -1,0 +1,4 @@
+
+
+class bug:
+  pass
